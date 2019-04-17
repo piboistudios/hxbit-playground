@@ -1,0 +1,15 @@
+-lib tink_unittest
+-lib hxbit
+-lib heaps
+-cp src
+-main RunTests
+--each
+
+# -lib hxnodejs
+# -js test.js
+# --next 
+# -python test.py
+--next
+-hl test.hl
+--next
+--neko test.n
